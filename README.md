@@ -2,25 +2,17 @@
 
 Context:
 
-The official name of this project is the preventive wheel program. The railway industry is one of the oldest history in the world. There advancement toward a data-driven culture is a slow and perilous one. A major problem with all types of equipment is the preventive maintenance. The metal monsters that are used to carry the passengers or merchandise can go for thousands of kilometers without needing any kind of maintenance (or do they). During this project, we will review the impact of corrective maintenance of train wheelsets on the operations, clients and cost. We will then apply machine learning algorithm to move from a corrective maintenance to a preventive maintenance. 
+The following project uses real failure data with the goal of doing preventive maintenance. The term w will be used as a synonym of parts. The unit could be a machine, a motor or any other kind of mechanical part. Since the model presented has been put into production for a client, it is not possible to present all the key features and data. This project is shared to present how machine learning algorithm could be used to do preventive maintenance instead of corrective maintenance. The goal of this preventive maintenance project is to improve production efficiency, planning, client satisfaction and to reduce cost.
 
-*** Comments and explanation will be added during the project to better explain the thought process
+The methodology will take into account the production constraint of the client. Comments and explanation will be added during the project to better explain the thought process and model chosen at the end.
 
-Methodologie:
+Methodology:
 
 1- First data extraction and data wrangling
 2- Data profiling 
-3- Review of possible variables impact on the wheelsets
+3- Review of possible variables impact on the Unit
 4- Datasets creation
 5- Creation of the first model
 
-Even thought we were able to create a decent model, we will try to push it up a notch
+For step 1 to 4, please see document Data_Prep.ipynb and document Model_Training.ipynb for step 5.
 
-6- Creation of a new dataset using summation of events on wheelsets
-7- Timseseries creation
-8- Testing of new model
-
-Why stop there when we have fun:
-
-9- Creation image based on timeseries event
-10- Use of pre-trained neural network model
