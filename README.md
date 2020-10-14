@@ -9,8 +9,11 @@ The methodology will take into account the production constraint of the client. 
 Methodology:
 
 1- First data extraction and data wrangling
+
 2- Review of possible variables impact on the Unit
+
 3- Datasets creation
+
 4- Creation of the first model
 
 For step 1 to 3, please see document Data_Prep.ipynb and document Model_Training.ipynb for step 4.
